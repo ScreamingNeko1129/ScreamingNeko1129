@@ -123,7 +123,6 @@
 A security monitoring system for a Malaysian furniture SME with **no IT staff**, tuned for local threats — fake bank portals, government-impersonation pages and e-wallet scam sites that generic tools overlook.
 
 | | |
-|---|---|
 | **Detection coverage** | 36 detection rules + 3 multi-event correlation rules |
 | **Telemetry** | 18 Windows event types across 4 log sources — process execution, DNS lookups, USB activity |
 | **Built for non-experts** | Every alert ships with a plain-language action *and* a reversible command, so the owner can respond without a security analyst |
