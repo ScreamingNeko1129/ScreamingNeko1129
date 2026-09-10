@@ -122,10 +122,20 @@
 
 A security monitoring system for a Malaysian furniture SME with **no IT staff**, tuned for local threats — fake bank portals, government-impersonation pages and e-wallet scam sites that generic tools overlook.
 
-| | |
-| **Detection coverage** | 36 detection rules + 3 multi-event correlation rules |
-| **Telemetry** | 18 Windows event types across 4 log sources — process execution, DNS lookups, USB activity |
-| **Built for non-experts** | Every alert ships with a plain-language action *and* a reversible command, so the owner can respond without a security analyst |
+<table>
+  <tr>
+    <td><strong>Detection coverage</strong></td>
+    <td>36 detection rules + 3 multi-event correlation rules</td>
+  </tr>
+  <tr>
+    <td><strong>Telemetry</strong></td>
+    <td>18 Windows event types across 4 log sources — process execution, DNS lookups, USB activity</td>
+  </tr>
+  <tr>
+    <td><strong>Built for non-experts</strong></td>
+    <td>Every alert ships with a plain-language action <em>and</em> a reversible command, so the owner can respond without a security analyst</td>
+  </tr>
+</table>
 
 <p>
 <img src="https://img.shields.io/badge/Python-C96C12?style=flat-square&logo=python&logoColor=FDF1E3" alt="Python" />
