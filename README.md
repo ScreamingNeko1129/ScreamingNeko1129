@@ -22,10 +22,9 @@
 ## About me
 
 - **Bachelor of Information Technology (Hons)** at Quest International University — **CGPA 3.58/4.00**, Dean's List twice.
-- I came to tech *after* a **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.
+- I came to tech after **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.
 - Currently building **NetShield**, a lightweight SIEM for a Malaysian furniture SME with **no IT staff** — because generic security tools don't catch local fake-bank and e-wallet scam sites.
 - I write the documentation nobody else wants to write: technical reports, UML, test plans, plain-language runbooks.
-- Four languages, plus a side career translating psychology and agricultural manuals **EN ↔ 中文**.
 - Working through **TryHackMe's Pre-Security path** and sharpening AI-assisted workflows.
 - **Open to internships** in software development, cybersecurity or data analytics.
 
