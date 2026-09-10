@@ -1,0 +1,90 @@
+name: GitHub stats
+
+# Generates the two stats cards shown in the profile README and publishes them
+# to the `generated` branch. Runs as ScreamingNeko1129 via the ACCESS_TOKEN
+# secret, so it can count private repositories and private contributions that
+# no third-party stats service is able to see.
+#
+# Requires a repository secret named ACCESS_TOKEN holding a *classic* personal
+# access token with read:user, user:email and repo scopes.
+
+on:
+  schedule:
+    - cron: "5 0 * * *" # 08:05 Malaysia time, daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-stats
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # Pinned to an exact release and verified by checksum, so a compromised or
+      # retagged upstream release cannot silently start running here. To upgrade:
+      # bump VERSION, download the asset, and replace SHA256 with its sha256sum.
+      - name: Download github-stats
+        env:
+          VERSION: "2.0.1"
+          SHA256: "5e15e02803559cec5b5bdae4f202939846789c4cd3a34cfd24ee9ff13d6902c5"
+        run: |
+          curl --fail --silent --show-error --location \
+            --output github-stats \
+            "https://github.com/jstrieb/github-stats/releases/download/${VERSION}/github-stats_x86_64-linux"
+          echo "${SHA256}  github-stats" | sha256sum --check --strict -
+          chmod +x github-stats
+
+      - name: Generate the cards
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # Recoloured copies of the upstream templates; see .github/stats/NOTICE.md
+          OVERVIEW_TEMPLATE: .github/stats/templates/overview.svg
+          LANGUAGES_TEMPLATE: .github/stats/templates/languages.svg
+          OVERVIEW_OUTPUT_FILE: out/overview.svg
+          LANGUAGES_OUTPUT_FILE: out/languages.svg
+          # This repo is the profile README plus the SVGs on the generated
+          # branch; counting it would report SVG as a top language.
+          EXCLUDE_REPOS: ScreamingNeko1129/ScreamingNeko1129
+          EXCLUDE_PRIVATE: "false"
+          SILENT: "true"
+          MAX_RETRIES: "5"
+        run: |
+          mkdir -p out
+          ./github-stats
+          ls -l out
+
+      # The cards live on their own branch so that `main` stays a clean profile
+      # README with no bot commits in its history.
+      - name: Publish to the generated branch
+        run: |
+          git config user.name "github-stats[bot]"
+          git config user.email "github-stats[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin generated >/dev/null 2>&1; then
+            git fetch --depth=1 origin generated
+            git worktree add --detach published FETCH_HEAD
+          else
+            git worktree add --detach published
+            git -C published checkout --orphan generated
+            git -C published rm -rfq . || true
+          fi
+
+          cp out/overview.svg out/languages.svg published/
+          git -C published add overview.svg languages.svg
+          if git -C published diff --cached --quiet; then
+            echo "No change in the generated cards."
+          else
+            git -C published commit -m "Update generated stats images"
+            git -C published push origin HEAD:generated
+          fi
