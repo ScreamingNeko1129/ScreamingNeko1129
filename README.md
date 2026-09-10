@@ -19,19 +19,19 @@
 
 ---
 
-## 🧭 About me
+## About me
 
-- 🎓 **Bachelor of Information Technology (Hons)** at Quest International University — **CGPA 3.58/4.00**, Dean's List twice.
-- 💼 I came to tech *after* a **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.
-- 🛡️ Currently building **NetShield**, a lightweight SIEM for a Malaysian furniture SME with **no IT staff** — because generic security tools don't catch local fake-bank and e-wallet scam sites.
-- 🧾 I write the documentation nobody else wants to write: technical reports, UML, test plans, plain-language runbooks.
-- 🗣️ Four languages, plus a side career translating psychology and agricultural manuals **EN ↔ 中文**.
-- 🌱 Working through **TryHackMe's Pre-Security path** and sharpening AI-assisted workflows.
-- 📬 **Open to internships** in software development, cybersecurity or data analytics.
+- **Bachelor of Information Technology (Hons)** at Quest International University — **CGPA 3.58/4.00**, Dean's List twice.
+- I came to tech *after* a **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.
+- Currently building **NetShield**, a lightweight SIEM for a Malaysian furniture SME with **no IT staff** — because generic security tools don't catch local fake-bank and e-wallet scam sites.
+- I write the documentation nobody else wants to write: technical reports, UML, test plans, plain-language runbooks.
+- Four languages, plus a side career translating psychology and agricultural manuals **EN ↔ 中文**.
+- Working through **TryHackMe's Pre-Security path** and sharpening AI-assisted workflows.
+- **Open to internships** in software development, cybersecurity or data analytics.
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
 **Languages**
 
@@ -115,9 +115,9 @@
 
 ---
 
-## 🚀 Featured projects
+## Featured projects
 
-### 🛡️ NetShield — Lightweight SIEM & SOC monitoring for SMEs
+### NetShield — Lightweight SIEM & SOC monitoring for SMEs
 
 <sub>Final Year Project · Apr 2026 – Oct 2026</sub>
 
@@ -138,7 +138,7 @@ A security monitoring system for a Malaysian furniture SME with **no IT staff**,
 <img src="https://img.shields.io/badge/Sysmon-C96C12?style=flat-square" alt="Sysmon" />
 </p>
 
-### 💰 FinancePro — Personal finance manager as a PWA
+### FinancePro — Personal finance manager as a PWA
 
 <sub>Jul 2025 – Sep 2025</sub>
 
@@ -154,7 +154,7 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## 📜 Certifications & learning
+## Certifications & learning
 
 <p>
 <img src="https://img.shields.io/badge/TryHackMe-Pre--Security%20Path-1B1B1D?style=for-the-badge&logo=tryhackme&logoColor=F7A63C" alt="TryHackMe Pre-Security path" />
@@ -164,7 +164,7 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## 🗣️ Languages
+## Languages
 
 <p>
 <img src="https://img.shields.io/badge/English-Professional-C96C12?style=for-the-badge" alt="English" />
@@ -177,13 +177,13 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## 📊 GitHub activity
+## GitHub activity
 
 <div align="center">
 
 <img src="https://ghchart.rshah.org/C96C12/ScreamingNeko1129?v=2" alt="ScreamingNeko1129's contribution graph for the last year" width="100%" />
 
-<sub>📌 The repositories pinned below are where most of this lands — NetShield and FinancePro are being prepared for public release.</sub>
+<sub>The repositories pinned below are where most of this lands — NetShield and FinancePro are being prepared for public release.</sub>
 
 </div>
 
@@ -204,7 +204,7 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 <div align="center">
 
-### 💬 Let's connect
+### Let's connect
 
 I'm looking for a **2026 IT internship** in software development, cybersecurity or data analytics.
 
