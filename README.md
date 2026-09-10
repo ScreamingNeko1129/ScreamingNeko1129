@@ -177,30 +177,27 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## 📊 GitHub
+## 📊 GitHub activity
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ScreamingNeko1129&theme=solarized" alt="GitHub profile summary" />
+<img src="https://ghchart.rshah.org/C96C12/ScreamingNeko1129?v=2" alt="ScreamingNeko1129's contribution graph for the last year" width="100%" />
 
-<br />
-
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ScreamingNeko1129&theme=solarized" alt="Top languages by repository" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ScreamingNeko1129&theme=solarized" alt="Most committed languages" />
-
-<br />
-
-<img height="180" src="https://streak-stats.demolab.com?user=ScreamingNeko1129&hide_border=true&background=FDF1E3&stroke=EFE4D6&ring=C96C12&fire=E5761A&currStreakNum=1B1B1D&sideNums=1B1B1D&currStreakLabel=C96C12&sideLabels=1B1B1D&dates=8A8A8A" alt="Contribution streak" />
+<sub>📌 The repositories pinned below are where most of this lands — NetShield and FinancePro are being prepared for public release.</sub>
 
 </div>
 
 <!--
-  Stat cards: github-readme-stats.vercel.app was returning DEPLOYMENT_PAUSED on 2026-09-10,
-  so these use github-profile-summary-cards (theme "solarized" = #fdf6e3, closest preset to
-  our cream #FDF1E3) plus streak-stats.demolab.com, which does accept the full custom palette.
-  If github-readme-stats comes back, swap the first three images for:
-  https://github-readme-stats.vercel.app/api?username=ScreamingNeko1129&show_icons=true&hide_border=true&title_color=C96C12&icon_color=E5761A&text_color=1B1B1D&bg_color=FDF1E3
-  https://github-readme-stats.vercel.app/api/top-langs/?username=ScreamingNeko1129&layout=compact&hide_border=true&title_color=C96C12&text_color=1B1B1D&bg_color=FDF1E3
+  Stat cards, 2026-09-10: the usual services were all failing when this section was written.
+    - streak-stats.demolab.com          504 through GitHub's camo proxy, 503 direct (3/3 tries)
+    - github-profile-summary-cards      serves a red "temporarily rate limited" SVG as HTTP 200,
+                                        which camo then caches as if it were a good image
+    - github-readme-stats.vercel.app    503 DEPLOYMENT_PAUSED
+    - github-profile-trophy             402
+    - github-readme-activity-graph      402
+  ghchart takes the palette hex in the URL path and has no Vercel quota to exhaust, so it is
+  what this section uses. Note: if an image here ever breaks, GitHub's proxy caches the failure —
+  bump the ?v= cache-buster to force a re-fetch rather than waiting it out.
 -->
 
 ---
