@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96C12,100:F7A63C&height=190&section=header&text=Enya%20Wong%20Xin%20Wen&fontSize=44&fontColor=FDF1E3&fontAlignY=36&desc=Final-Year%20BIT%20(Hons)%20%C2%B7%20Ipoh,%20Malaysia&descSize=17&descAlignY=57&descColor=FDF1E3" alt="Enya Wong Xin Wen" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96C12,100:F7A63C&height=190&section=header&text=Enya%20Wong%20Xin%20Wen&fontSize=44&fontColor=FDF1E3&fontAlignY=36&desc=Final-Year%20BIT%20(Hons)%20%C2%B7%20Ipoh,%20Malaysia&descSize=17&descAlignY=57&descColor=FDF1E3&fontFamily=ui-monospace%2CSFMono-Regular%2CMenlo%2CConsolas%2Cmonospace" alt="Enya Wong Xin Wen" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=C96C12&center=true&vCenter=true&width=620&lines=Security+monitoring+for+SMEs+with+no+IT+staff;SIEM+rule+development+%26+log+correlation;Full-stack+%26+offline-first+PWAs;Open+to+IT+internships+%E2%80%94+2026" alt="What I do" />
 
@@ -19,21 +19,21 @@
 
 ---
 
-## About me
+## <samp>About me</samp>
 
-- **Bachelor of Information Technology (Hons)** at Quest International University — **CGPA 3.58/4.00**, Dean's List twice.
-- I came to tech *after* a **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.
-- Currently building **NetShield**, a lightweight SIEM for a Malaysian furniture SME with **no IT staff** — because generic security tools don't catch local fake-bank and e-wallet scam sites.
-- I write the documentation nobody else wants to write: technical reports, UML, test plans, plain-language runbooks.
-- Four languages, plus a side career translating psychology and agricultural manuals **EN ↔ 中文**.
-- Working through **TryHackMe's Pre-Security path** and sharpening AI-assisted workflows.
-- **Open to internships** in software development, cybersecurity or data analytics.
+- <samp>**Bachelor of Information Technology (Hons)** at Quest International University — **CGPA 3.58/4.00**, Dean's List twice.</samp>
+- <samp>I came to tech *after* a **Diploma in Management Studies** and two years as an assistant accountant, so I read a system as a business process first and a codebase second.</samp>
+- <samp>Currently building **NetShield**, a lightweight SIEM for a Malaysian furniture SME with **no IT staff** — because generic security tools don't catch local fake-bank and e-wallet scam sites.</samp>
+- <samp>I write the documentation nobody else wants to write: technical reports, UML, test plans, plain-language runbooks.</samp>
+- <samp>Four languages, plus a side career translating psychology and agricultural manuals **EN ↔ 中文**.</samp>
+- <samp>Working through **TryHackMe's Pre-Security path** and sharpening AI-assisted workflows.</samp>
+- <samp>**Open to internships** in software development, cybersecurity or data analytics.</samp>
 
 ---
 
-## Tech stack
+## <samp>Tech stack</samp>
 
-**Languages**
+<samp>**Languages**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/Java-1B1B1D?style=for-the-badge&logo=openjdk&logoColor=F7A63C" alt="Java" />
@@ -45,7 +45,7 @@
 <img src="https://img.shields.io/badge/SQL-1B1B1D?style=for-the-badge&logo=databricks&logoColor=F7A63C" alt="SQL" />
 </p>
 
-**Web & app**
+<samp>**Web & app**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/HTML5-1B1B1D?style=for-the-badge&logo=html5&logoColor=F7A63C" alt="HTML5" />
@@ -57,7 +57,7 @@
 <img src="https://img.shields.io/badge/Service%20Workers-1B1B1D?style=for-the-badge&logo=googlechrome&logoColor=F7A63C" alt="Service Worker API" />
 </p>
 
-**Databases**
+<samp>**Databases**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/MySQL-1B1B1D?style=for-the-badge&logo=mysql&logoColor=F7A63C" alt="MySQL" />
@@ -68,7 +68,7 @@
 <img src="https://img.shields.io/badge/XAMPP-1B1B1D?style=for-the-badge&logo=xampp&logoColor=F7A63C" alt="XAMPP" />
 </p>
 
-**Networking**
+<samp>**Networking**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-1B1B1D?style=for-the-badge&logo=cisco&logoColor=F7A63C" alt="Cisco Packet Tracer" />
@@ -77,7 +77,7 @@
 <img src="https://img.shields.io/badge/DNS-1B1B1D?style=for-the-badge&logo=cloudflare&logoColor=F7A63C" alt="DNS" />
 </p>
 
-**Cybersecurity**
+<samp>**Cybersecurity**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/SIEM%20Rule%20Development-1B1B1D?style=for-the-badge&logo=elastic&logoColor=F7A63C" alt="SIEM rule development" />
@@ -87,7 +87,7 @@
 <img src="https://img.shields.io/badge/Incident%20Response-1B1B1D?style=for-the-badge&logo=hackthebox&logoColor=F7A63C" alt="Incident response" />
 </p>
 
-**Engineering, data & delivery**
+<samp>**Engineering, data & delivery**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/SDLC-1B1B1D?style=for-the-badge" alt="Software development life cycle" />
@@ -97,7 +97,7 @@
 <img src="https://img.shields.io/badge/BI%20%26%20Dashboarding-1B1B1D?style=for-the-badge" alt="Business intelligence and dashboarding" />
 </p>
 
-**Tools & platforms**
+<samp>**Tools & platforms**</samp>
 
 <p>
 <img src="https://img.shields.io/badge/Git-1B1B1D?style=for-the-badge&logo=git&logoColor=F7A63C" alt="Git" />
@@ -115,19 +115,19 @@
 
 ---
 
-## Featured projects
+## <samp>Featured projects</samp>
 
-### NetShield — Lightweight SIEM & SOC monitoring for SMEs
+### <samp>NetShield — Lightweight SIEM & SOC monitoring for SMEs</samp>
 
-<sub>Final Year Project · Apr 2026 – Oct 2026</sub>
+<sub><samp>Final Year Project · Apr 2026 – Oct 2026</samp></sub>
 
-A security monitoring system for a Malaysian furniture SME with **no IT staff**, tuned for local threats — fake bank portals, government-impersonation pages and e-wallet scam sites that generic tools overlook.
+<samp>A security monitoring system for a Malaysian furniture SME with **no IT staff**, tuned for local threats — fake bank portals, government-impersonation pages and e-wallet scam sites that generic tools overlook.</samp>
 
 | | |
 |---|---|
-| **Detection coverage** | 36 detection rules + 3 multi-event correlation rules |
-| **Telemetry** | 18 Windows event types across 4 log sources — process execution, DNS lookups, USB activity |
-| **Built for non-experts** | Every alert ships with a plain-language action *and* a reversible command, so the owner can respond without a security analyst |
+| <samp>**Detection coverage**</samp> | <samp>36 detection rules + 3 multi-event correlation rules</samp> |
+| <samp>**Telemetry**</samp> | <samp>18 Windows event types across 4 log sources — process execution, DNS lookups, USB activity</samp> |
+| <samp>**Built for non-experts**</samp> | <samp>Every alert ships with a plain-language action *and* a reversible command, so the owner can respond without a security analyst</samp> |
 
 <p>
 <img src="https://img.shields.io/badge/Python-C96C12?style=flat-square&logo=python&logoColor=FDF1E3" alt="Python" />
@@ -138,11 +138,11 @@ A security monitoring system for a Malaysian furniture SME with **no IT staff**,
 <img src="https://img.shields.io/badge/Sysmon-C96C12?style=flat-square" alt="Sysmon" />
 </p>
 
-### FinancePro — Personal finance manager as a PWA
+### <samp>FinancePro — Personal finance manager as a PWA</samp>
 
-<sub>Jul 2025 – Sep 2025</sub>
+<sub><samp>Jul 2025 – Sep 2025</samp></sub>
 
-A mobile-first, **offline-first** finance tracker that installs like a native app on Android and iOS — no app store, no backend, no data leaving the device.
+<samp>A mobile-first, **offline-first** finance tracker that installs like a native app on Android and iOS — no app store, no backend, no data leaving the device.</samp>
 
 <p>
 <img src="https://img.shields.io/badge/JavaScript-C96C12?style=flat-square&logo=javascript&logoColor=FDF1E3" alt="JavaScript" />
@@ -154,7 +154,7 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## Certifications & learning
+## <samp>Certifications & learning</samp>
 
 <p>
 <img src="https://img.shields.io/badge/TryHackMe-Pre--Security%20Path-1B1B1D?style=for-the-badge&logo=tryhackme&logoColor=F7A63C" alt="TryHackMe Pre-Security path" />
@@ -164,7 +164,7 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
-## Languages
+## <samp>Languages</samp>
 
 <p>
 <img src="https://img.shields.io/badge/English-Professional-C96C12?style=for-the-badge" alt="English" />
@@ -173,17 +173,17 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 <img src="https://img.shields.io/badge/Bahasa%20Melayu-Conversational-C96C12?style=for-the-badge" alt="Bahasa Melayu" />
 </p>
 
-> Two years translating psychology talks and agricultural technical manuals **EN ↔ 中文** — largely the same skill as writing a good alert message: take something dense and make it act-on-able for someone who isn't a specialist.
+> <samp>Two years translating psychology talks and agricultural technical manuals **EN ↔ 中文** — largely the same skill as writing a good alert message: take something dense and make it act-on-able for someone who isn't a specialist.</samp>
 
 ---
 
-## GitHub activity
+## <samp>GitHub activity</samp>
 
 <div align="center">
 
 <img src="https://ghchart.rshah.org/C96C12/ScreamingNeko1129?v=2" alt="ScreamingNeko1129's contribution graph for the last year" width="100%" />
 
-<sub>The repositories pinned below are where most of this lands — NetShield and FinancePro are being prepared for public release.</sub>
+<sub><samp>The repositories pinned below are where most of this lands — NetShield and FinancePro are being prepared for public release.</samp></sub>
 
 </div>
 
@@ -204,9 +204,9 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 <div align="center">
 
-### Let's connect
+### <samp>Let's connect</samp>
 
-I'm looking for a **2026 IT internship** in software development, cybersecurity or data analytics.
+<samp>I'm looking for a **2026 IT internship** in software development, cybersecurity or data analytics.</samp>
 
 <a href="https://www.linkedin.com/in/enya-wong-xin-wen-ab7509328/">
   <img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-C96C12?style=for-the-badge" alt="LinkedIn" />
