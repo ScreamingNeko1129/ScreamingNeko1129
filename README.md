@@ -185,6 +185,25 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 
 ---
 
+## GitHub stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScreamingNeko1129/ScreamingNeko1129/generated/overview.svg#gh-dark-mode-only" />
+  <img src="https://raw.githubusercontent.com/ScreamingNeko1129/ScreamingNeko1129/generated/overview.svg" alt="Stars, forks, all-time contributions, lines of code changed, repository views and repositories contributed to" height="210" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ScreamingNeko1129/ScreamingNeko1129/generated/languages.svg#gh-dark-mode-only" />
+  <img src="https://raw.githubusercontent.com/ScreamingNeko1129/ScreamingNeko1129/generated/languages.svg" alt="Languages used, by file size" height="210" />
+</picture>
+
+<sub>Regenerated daily by <a href="https://github.com/jstrieb/github-stats">jstrieb/github-stats</a> running in this repository, so the numbers include private work and nothing here depends on a third-party service staying up.</sub>
+
+</div>
+
+---
+
 ## GitHub activity
 
 <div align="center">
@@ -196,16 +215,24 @@ A mobile-first, **offline-first** finance tracker that installs like a native ap
 </div>
 
 <!--
-  Stat cards, 2026-09-10: the usual services were all failing when this section was written.
-    - streak-stats.demolab.com          504 through GitHub's camo proxy, 503 direct (3/3 tries)
-    - github-profile-summary-cards      serves a red "temporarily rate limited" SVG as HTTP 200,
-                                        which camo then caches as if it were a good image
-    - github-readme-stats.vercel.app    503 DEPLOYMENT_PAUSED
-    - github-profile-trophy             402
-    - github-readme-activity-graph      402
-  ghchart takes the palette hex in the URL path and has no Vercel quota to exhaust, so it is
-  what this section uses. Note: if an image here ever breaks, GitHub's proxy caches the failure —
-  bump the ?v= cache-buster to force a re-fetch rather than waiting it out.
+  The two cards in "GitHub stats" are built by .github/workflows/github-stats.yml and
+  committed to this repository's `generated` branch, so GitHub itself serves them.
+  That is deliberate. Re-checked on 2026-09-11, a day after the first survey:
+    - github-readme-stats.vercel.app    503 DEPLOYMENT_PAUSED      (still down, 2 days running)
+    - github-profile-trophy             402                        (out of Vercel credit)
+    - github-readme-activity-graph      402                        (out of Vercel credit)
+    - streak-stats.demolab.com          200 today, 504 yesterday   (comes and goes)
+    - github-profile-summary-cards      200 direct, but it rate limits GitHub's image proxy
+                                        and serves the refusal as HTTP 200, so the proxy
+                                        caches a red ERROR card that cannot heal itself
+    - lowlighter/metrics                master frozen since Dec 2023, zero successful runs
+                                        of its own example workflow — not built on
+  Dark mode works through the #gh-dark-mode-only fragment, which the SVG styles with
+  :target — hence <picture> rather than a bare <img>.
+
+  ghchart stays for the contribution graph; it takes the palette hex in its URL path.
+  If any image here ever breaks, GitHub's proxy caches the failure — bump the ?v=
+  cache-buster to force a re-fetch rather than waiting it out.
 -->
 
 ---
